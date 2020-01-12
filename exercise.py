@@ -1,1 +1,1 @@
-print("Ben-Dor gay")
+print("Ben-Dor Totah")
