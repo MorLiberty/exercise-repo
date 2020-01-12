@@ -1,3 +1,4 @@
+properties([[$class: 'JiraProjectProperty'], pipelineTriggers([pollSCM('* * * * *')])])
 node {
     stage("checkout"){
         git "https://github.com/MorLiberty/exercise-repo.git"
